@@ -77,7 +77,7 @@ exports.ox_target:addBoxZone({
             name = "FreeCar",
             event = "free_car",
             icon = "fa-solid fa-car",
-            label = Config.blip.label, -- 
+            label = Config.blip.label, -- Label can be changed at config.lua
             distance = 2
         }
     }
