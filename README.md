@@ -15,3 +15,6 @@ Script made from inspiration of [no1_freecar](https://github.com/Seconds123/no1_
 
 
 ## The SQL will run automatically, but if it doesn't, you can run it manually from sql.sql
+
+## Other works
+[Ollinox_TrashBin](https://github.com/oliver693/Ollinox_TrashBin)
