@@ -1,6 +1,6 @@
 # Ollinox_freecar
 
-Script made from inspiration of [no1_freecar](https://github.com/Seconds123/no1_freecar) and This was the scratch code for me to make the updated one using ox_lib & ox_target. @[Seconds123]
+Script made from inspiration of [no1_freecar](https://github.com/Seconds123/no1_freecar) and This was the scratch code for me to make the updated one using ox_lib & ox_target. @Seconds123
 
 # Dont change the name of script or else wont run as expected
 
