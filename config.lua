@@ -1,8 +1,8 @@
 Config = {}
 
 Config.VehicleType = {
-    type = "", -- bike,car,helicopter,plane,boat
-    model = "" --car model name
+    type = "car", -- bike,car,helicopter,plane,boat
+    model = "t20" --car model name
 }
 
 Config.SpawnPoint = {
