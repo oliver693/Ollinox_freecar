@@ -1,5 +1,5 @@
 # Ollinox_freecar
-This script was inspired by [no1_freecar](https://github.com/Seconds123/no1_freecar), and the original code served as the foundation for me to create the updated version using ox_lib and ox_target. Thanks to @Seconds123 for the inspiration.
+This script was inspired by [no1_freecar](https://github.com/Seconds123/no1_freecar), and the original code served as the foundation for me to create the updated version using ox_lib and ox_target. Thanks to [Seconds123](https://github.com/Seconds123) for the inspiration.
 
 # Dont change the name of script or else wont run as expected
 ## The SQL will run automatically, but if it doesn't, you can run it manually from sql.sql
