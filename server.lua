@@ -69,19 +69,14 @@ function SendToDiscord(message)
     local embed = {
         {
             ["title"] = "Free Car Log",
-            ["color"] = 16711680,
             ["description"] = message,
             ["footer"] = {
                 ["text"] = "Author - Ollinox Scripts",
-            },
-            ["thumbnail"] = {
-                ["url"] = "https://cdn.discordapp.com/attachments/1317515160457318400/1328624306812616765/AJxt1KO28xy7QwjNbHv-sHETwTL8-XuAQLpCNhNY3WtGKP-ejOIGvGsG36Nkv1Q5EyoY6OJrWxvUX3de0ojpU7vfFPnFLrH6a335I5wIajKE7TjHfd2AWKG91uCQT5ax002Un4PkEj2sZi3-P7ZUNSkF7aaQd0rfi21P4BZlQ6OgYr5zH8NqSfU9s1024.png?ex=6787614f&is=67860fcf&hm=497fa369770fddb67b2a78471276df2981ab9bfb7586d3bd62dfa2ed8621af82&" -- Replace with your thumbnail URL
             },
         }
     }
     PerformHttpRequest(Config.Discord, function(err, text, headers) end, 'POST', json.encode({username = "Ollinox Scripts", embeds = embed}), { ['Content-Type'] = 'application/json' })
 end
-
 
 RegisterNetEvent("ollinox_freecar:server:claimVehicle")
 RegisterNetEvent("ollinox_freecar:server:SetOwnedVehicle")
